@@ -1,0 +1,23 @@
+{
+  "name": "commentator",
+  "version": "0.1.0",
+  "description": "A sassy AI sports commentator that calls your software engineering like it's the championship game. Powered by GPT-Live.",
+  "main": "src/main/main.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --inspect",
+    "spot": "node scripts/spot.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "openai": "^7.51.0"
+  },
+  "devDependencies": {
+    "electron": "^45.2.0"
+  }
+}
